@@ -1,0 +1,4 @@
+ digraph M { 
+ B0->B1[label="a'"]
+B1->B0[label="b'"]
+}

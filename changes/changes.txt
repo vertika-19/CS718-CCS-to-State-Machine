@@ -1,0 +1,13 @@
+In the class diagram, we made the following changes:
+
+Removed:
+1. getInput() in RcvInput class was not required, so we removed it.
+2. tab from AgentTable and SystemTable class
+3. writeFile() in genOutput class
+
+Added:
+1. process() in Parser class, which identifies an expression as agent or system expression, and redirects it to their respective functions.
+2. string 2D table in both agent and system classes.
+3. agentAndNoOfStates in system class.
+4. calNextSum(),calPrevSum() and calcIndices() in SystemTable class
+5. process() in genOutput class

@@ -1,0 +1,4 @@
+ digraph M { 
+ S0->S3[label="tau"]
+S3->S0[label="tau"]
+}
